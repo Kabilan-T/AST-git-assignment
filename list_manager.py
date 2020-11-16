@@ -5,8 +5,8 @@ def random_order(list):
     return random
 
 def order_by_increasing_value(list):
-    ascending_order = np.sort(my_list)
-    return ascending_order
+    list.sort() 
+    return list
     
 
 def order_by_decreasing_value(list):
@@ -40,4 +40,3 @@ def get_lowest_value(list):
     list.sort() 
     return list[:1]
     #pass
-
