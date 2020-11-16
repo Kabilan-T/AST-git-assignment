@@ -24,7 +24,9 @@ def stringfy_list(list):
 
 def multiply_list(list, multiple):
     '''returns the list with all elements multipled by the value multiple'''
-    pass
+    multiply_list = [i*multiple for i in list]
+    return multiply_list
+    #pass
 
 def get_highest_value(list):
     '''returns the highest value of the list'''
