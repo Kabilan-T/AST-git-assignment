@@ -4,3 +4,4 @@
 * \Hamza Ullah \Khan
 
 Git assignment for Advanced Software Technology. 
+![Git Log](log.png)
