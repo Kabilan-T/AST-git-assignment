@@ -36,5 +36,7 @@ def get_highest_value(list):
 
 def get_lowest_value(list):
     '''returns the lowest value of the list'''
-    pass
+    list.sort() 
+    return list[:1]
+    #pass
 
