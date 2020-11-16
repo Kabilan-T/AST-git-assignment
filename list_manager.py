@@ -48,5 +48,6 @@ def most_common_item(list):
             element = item
     return element
 
-l = [0,0,0,1,1,1,5,5,5,5,4,6,8]
-print(most_common_item(l))
+def sum_of_list(list):
+    new_value = sum(list)
+    return new_value
