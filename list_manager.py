@@ -38,3 +38,15 @@ def get_lowest_value(list):
     list.sort() 
     return list[:1]
     #pass
+
+def most_common_item(list):
+    '''returns most common item in a list'''
+    maxcount = 0
+    for item in list:
+        if maxcount < list.count(item):
+            maxcount = list.count(item)
+            element = item
+    return element
+
+l = [0,0,0,1,1,1,5,5,5,5,4,6,8]
+print(most_common_item(l))
