@@ -18,7 +18,9 @@ def reverse_order(list):
 
 def stringfy_list(list):
     '''returns a list with all elements turned into strings'''
-    pass
+    stringfy_list = [str(i) for i in list]
+    return stringfy_list
+    #pass
 
 def multiply_list(list, multiple):
     '''returns the list with all elements multipled by the value multiple'''
