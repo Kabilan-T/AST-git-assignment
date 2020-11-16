@@ -38,3 +38,8 @@ def get_lowest_value(list):
     list.sort() 
     return list[:1]
     #pass
+
+def  mean(list):
+    '''returns the mean'''
+    mean = sum(list)/len(list)
+    return mean
