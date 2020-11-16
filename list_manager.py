@@ -1,20 +1,21 @@
 # List manager
 
 def random_order(list):
-    '''returns the list with random order'''
-    pass
+    random = np.random.shuffle(my_list)
+    return random
 
 def order_by_increasing_value(list):
-    '''returns the list ordered by increasing value'''
-    pass
+    ascending_order = np.sort(my_list)
+    return ascending_order
+    
 
 def order_by_decreasing_value(list):
-    '''returns the list ordered by decreasing value'''
-    pass
+    descend = np.sort(my_list)[: : -1]
+    return descend
 
 def reverse_order(list):
-    '''returns the list in reverse order'''
-    pass
+    reverse = np.flip(my_list)
+    return reverse
 
 def stringfy_list(list):
     '''returns a list with all elements turned into strings'''
