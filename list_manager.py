@@ -43,3 +43,7 @@ def  mean(list):
     '''returns the mean'''
     mean = sum(list)/len(list)
     return mean
+
+def get_median(list):
+    median = np.median(my_list)
+    return median
