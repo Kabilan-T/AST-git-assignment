@@ -1,6 +1,6 @@
 # AST Assignment \#1: Git and Github.
 ## Team members:
-* \Kabilan \Tamilmani
+* \<Kabilan> \Tamilmani
 * \Hamza Ullah \Khan
 
 Git assignment for Advanced Software Technology. 
